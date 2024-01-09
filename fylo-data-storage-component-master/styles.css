@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background: url('images/bg-mobile.png') no-repeat center/cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 150px 30px;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 0 40px;
+    border-radius: 10px 100px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.card-2 {
+    position: relative;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+}
+
+.white-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    height: 80px;
+    background-color: #fff;
+    color: black;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.bigger-text {
+    font-weight: 700;
+    color:hsl(229, 57%, 11%);
+}
+
+.bolder-text {
+    font-size: 3rem;
+}
+
+.mini-card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.mini-card {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.text {
+    color: hsl(243, 100%, 93%);
+    margin-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.storage-bar {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    border: 2px solid hsl(229, 57%, 11%);
+    border-radius: 10px;
+    background: hsl(229, 57%, 11%);
+    position: relative;
+}
+
+.storage-flow {
+    position: absolute;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 81.5%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.storage-circle {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 81.5%;
+    transform: translateX(-100%);
+}
+
+
+.storage-limit {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+
+    body {
+        background: url('images/bg-desktop.png') no-repeat center/cover;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .card-1 {
+        margin: 0 20px 0 20px;
+        width: 30%;
+        max-width: 250px;
+    }
+
+    .card-2 {
+        margin-right: 20px;
+        width: 70%;
+        height: 170px;
+        margin-top: 30px;
+        justify-content: end;
+        max-width: 600px;
+    }
+
+    .white-box {
+        top: -30px;
+        right: 20px;
+        height: 35%;
+        border-radius: 5px;
+        /* z-index: 1; */
+    }
+
+    .bolder-text {
+        font-size: 2.5rem;
+    }
+
+    .triangle-down {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        width: 0;
+        height: 0;
+        border-top: 30px solid #fff;
+        border-left: 30px solid transparent;
+        border-right: 0px solid transparent;
+        
+      }
+    
+}
+
+
+
+
