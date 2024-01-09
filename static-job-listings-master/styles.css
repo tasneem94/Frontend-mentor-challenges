@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+body {
+    background-color: hsl(180, 52%, 96%);
+}
+
+header {
+    height: 156px; 
+    width: 100%;
+    background-image: url("images/bg-header-mobile.svg");
+    position: relative;
+    background-color: hsl(180, 29%, 50%); 
+    margin-bottom: -30px;
+    z-index: -1;
+}
+
+.container {
+    padding:0px 20px 20px 20px;
+}
+
+.filter {
+    position: relative;
+    padding: 10px 45px 0 10px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    /* margin-top: -20px; */
+}
+
+.clear-btn {
+    position: absolute;
+    color: hsl(180, 8%, 52%);
+    top: 40%;
+    right: 20px;
+}
+
+.clear-btn:hover {
+    cursor: pointer;
+    color: hsl(180, 29%, 50%);
+    text-decoration: underline;
+}
+
+.tag-filter {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: hsl(180, 29%, 50%);
+    background-color:hsl(180, 52%, 96%);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.btn-filter {
+    border: none;
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(180, 52%, 96%);
+    font-size: larger;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 0 2px 2px 0;
+}
+.btn-filter:hover {
+    background-color: hsl(180, 14%, 20%);
+    color: hsl(180, 52%, 96%);  
+}
+
+.card {
+    background-color:#fff;
+    width: 100%;
+    padding: 60px 25px 10px 25px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.card-featured {
+    box-shadow: -5px 0 hsl(180, 29%, 50%);
+}
+
+.company-logo {
+    position: absolute;
+    top: -40px;
+    left: 15px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    /* font-weight: 700; */
+    color: hsl(180, 29%, 50%);
+    margin-right: 15px;
+}
+
+.new-tag {
+    color:  hsl(180, 52%, 96%);
+    background-color: hsl(180, 29%, 50%);
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.featured-tag {
+    color: hsl(180, 52%, 96%);
+    background-color: hsl(180, 14%, 20%);
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.designation {
+    margin-bottom: 20px;
+    color: hsl(180, 14%, 20%);
+}
+
+.other-info {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+}
+
+.line-break {
+    border: 1px solid hsl(180, 8%, 52%);
+    margin-bottom: 20px;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.tag:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(180, 52%, 96%);
+}
+
+.tag:hover, .btn-filter:hover {
+    cursor: pointer;
+}
+
+.alt-img {
+    height: 88px;
+    width: 88px;
+    border: 1px solid hsl(180, 29%, 50%);
+    border-radius: 50%;
+}
+
+@media (min-width: 375px) {
+    header {
+        background-image: url("images/bg-header-desktop.svg");
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card, .filter {
+        width: 90%;
+    }
+}
