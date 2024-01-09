@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@500;700&family=Lexend+Deca&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:ital,wght@0,400;0,700;1,700;1,900&family=Raleway:wght@400;700&family=Roboto:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- <nav>
+    asasa
+  </nav> -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-toggle-with-title">
+        <button class="nav-toggle">&#9776;</button>
+        <div class="nav-title">sneakers</div>
+        <div class="menu-close">X</div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#" class="nav-link">Collection</a></li>
+        <li><a href="#" class="nav-link">Men</a></li>
+        <li><a href="#" class="nav-link">Women</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="profile-and-cart">
+        <div class="cart cart-logo">
+          <div class="cart-item-indicator">1</div>
+          <div class="cart-card">
+            <div class="cart-heading">Cart</div>
+            <div class="cart-border-bottom"></div>
+            <div class="cart-body">
+              <div class="cb-pic"></div>
+              <div class="cb-texts">
+                <div class="cb-heading">Fall Limited Edition Sneakers</div>
+                <div class="cb-calculation">
+                  $125.00 x 
+                  <span class="item-num">1</span>
+                  <span class="total">$125.00</span>
+                </div>
+              </div>
+              <div class="cb-del-btn"></div>
+            </div>
+            <div class="checkout-btn">checkout</div>
+          </div> 
+          <div class="cart-card-empty">
+            <div class="cart-heading">Cart</div>
+            <div class="cart-border-bottom"></div>
+            <div class="cart-body-empty">
+              Your cart is empty.
+            </div> 
+          </div>
+      </div>
+      <div class="profile-logo"></div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="pic-container">
+      <div class="large-pic">
+        <div class="next-btn-mini">></div>
+        <div class="previous-btn-mini">&lt;</div>
+      </div>
+      <div class="small-pic-container">
+        <div class="small-pic small-pic-1 small-pic-selected"></div>
+        <div class="small-pic small-pic-2"></div>
+        <div class="small-pic small-pic-3"></div>
+        <div class="small-pic small-pic-4"></div>
+      </div>
+    </div>
+    <div class="txt-container">
+      <div class="title">Sneaker Company</div>
+      <div class="heading">Fall Limited Edition Sneakers</div>
+      <div class="txt">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</div>
+      <div class="price">
+        <div class="new-price-with-discount">
+          <div class="new-price">$125.00</div>
+          <div class="discount">50%</div>
+        </div>
+        <div class="pre-price">$250.00</div>
+      </div>
+      <div class="quantity-with-btn"> 
+        <div class="quantity">
+          <span class="minus">-</span>
+          <span class="no">0</span>
+          <span class="plus">+</span>
+        </div>
+        <button class="btn add-to-cart-btn">
+          <div class="cart-logo"></div>
+          <div class="btn-txt">Add to cart</div> 
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative-pic-container">
+    <div class="pic-container">
+      <div class="large-pic larger-pic">
+        <div class="close-btn">X</div>
+        <div class="next-btn">></div>
+        <div class="previous-btn">&lt;</div>
+      </div>
+      <div class="small-pic-container adjust-small-pic-container">
+        <div class="small-pic small-pic-1 small-pic-selected"></div>
+        <div class="small-pic small-pic-2 "></div>
+        <div class="small-pic small-pic-3 "></div>
+        <div class="small-pic small-pic-4 "></div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
