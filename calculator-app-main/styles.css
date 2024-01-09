@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', 'sans-serif';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.container {
+    min-width: 200px;
+    max-width: 500px;
+    background-color: hsl(222, 26%, 31%);
+    margin: 10% 5%;
+    color: #fff;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.calc-text {
+    font-size: 1.5rem;
+    
+}
+
+.theme {
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+}
+
+.theme-text {
+    font-size: smaller;
+    margin-right: 30px;
+}
+
+.theme-btns {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(224, 36%, 15%);
+    width: 50px;
+    height: fit-content;
+    padding:2px;
+    border-radius: 10px;
+}
+
+.theme-btn {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(6, 63%, 50%);  
+}
+
+.theme-btn-2, .theme-btn-3 {
+    background-color: hsl(224, 36%, 15%);
+}
+
+.label {
+    position: absolute;
+    top: -15px;
+    font-size: smaller;
+}
+
+.label-1 {
+    left: 5px; 
+}
+
+.label-2 {
+   left: 20px;
+}
+
+.label-3{
+    right: 5px;
+}
+
+/* .theme-btn-1:active + .label {
+    background-color: hsl(174, 86%, 45%); 
+    left: 36px;
+} */
+
+
+.number-indicator{
+    position: absolute;
+    right: 6px;
+    top: -15px;
+    font-size: 0.8rem;
+}
+
+.display-container {
+    margin: 25px 0 20px 0;
+    height: 60px;
+}
+
+.calculation-container {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: right;
+    
+}
+
+.button-container {
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.round-btn-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.round-btn {
+    height: 60px;
+    width: 22%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0 2px 2px hsl(28, 16%, 65%);
+}
+
+.txt {
+    color: #fff;
+}
+
+.round-btn:hover {
+    cursor: pointer;
+    background-color:hsl(36, 24%, 96%);
+}
+
+.del-btn {
+    background-color: hsl(225, 21%, 49%);
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 2px hsl(224, 28%, 35%);
+}
+
+.rectangular-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rect-btn {
+    width: 48%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset-btn {
+    background-color: hsl(225, 21%, 49%);
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: 0 3px 2px hsl(224, 28%, 35%);
+}
+
+.reset-btn:hover, .del-btn:hover {
+    cursor: pointer;
+    background-color: hsl(225, 24%, 54%);
+}
+
+.equal-btn {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 3px 2px hsl(6, 70%, 34%);
+    color: #fff;
+}
+
+.equal-btn:hover {
+    cursor: pointer;
+    background-color: hsl(6, 62%, 55%);
+    
+}
+
+@media (min-width: 375px) {
+    .container {
+        margin: 0;
+        min-width: 300px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+}
