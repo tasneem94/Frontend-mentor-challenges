@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Frontend Mentor - Todo app
+# Frontend Mentor - Job listings with filtering
 
-![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Job listings with filtering coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -13,21 +12,36 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this todo app and get it looking as close to the design as possible.
+Your challenge is to build out this job listing page and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Add new todos to the list
-- Mark todos as complete
-- Delete todos from the list
-- Filter by all/active/complete todos
-- Clear all completed todos
-- Toggle light and dark mode
-- **Bonus**: Drag and drop to reorder items on the list
+- Filter job listings based on the categories
+
+### Filtering
+
+#### Option 1
+
+Filter job listings based on the categories using the HTML `data-` attribute. In this option, you'd use the hardcoded content that already exists in the [index.html](./index.html) file.
+
+The categories are:
+
+- Role: Frontend, Backend, Fullstack
+- Level: Junior, Midweight, Senior
+- Languages: Python, Ruby, JavaScript, HTML, CSS
+- Tools: React, Sass, Vue, Django, RoR (Ruby on Rails)
+
+So, if a job listing is for has the following categories `Frontend, Junior, JavaScript, React` your HTML data attributes would look like this `data-role="frontend" data-level="junior" data-languages="javascript" data-tools="react"`.
+
+#### Option 2
+
+Use the [data.json](./data.json) file to pull the data and then dynamically add the content. This would be perfect if you're looking to practice a JS library/framework like React, Vue, or Svelte.
+
+To add a filter, the user needs to click on the tablets on the right side of the listing on desktop or the bottom on mobile. For each filter added, only listings containing all selected filters should be returned.
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
@@ -98,28 +112,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-=======
-# Frontend-mentor-challenges
-
-3-column-preview-card-component-main:  https://tasneem94.github.io/Frontend-mentor-challenges/3-column-preview-card-component-main/
-
-advice-generator-app : https://tasneem94.github.io/Frontend-mentor-challenges/advice-generator-app-main/
-
-age-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/age-calculator-app-main/
-
-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/calculator-app-main/
-
-ecommerce-product-page : https://tasneem94.github.io/Frontend-mentor-challenges/ecommerce-product-page-main/
-
-fylo-data-storage-component : https://tasneem94.github.io/Frontend-mentor-challenges/fylo-data-storage-component-master/
-
-ip-address-tracker : https://tasneem94.github.io/Frontend-mentor-challenges/ip-address-tracker-master/
-
-notifications-page : https://tasneem94.github.io/Frontend-mentor-challenges/notifications-page-main/
-
-static-job-listings : https://tasneem94.github.io/Frontend-mentor-challenges/static-job-listings-master/
-
-testimonials-grid-section : https://tasneem94.github.io/Frontend-mentor-challenges/testimonials-grid-section-main/
-
-tip-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/tip-calculator-app-main/
->>>>>>> 9cfe9d3b79847f604317c994ef185e1b50a28578

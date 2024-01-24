@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Frontend Mentor - Todo app
+# Frontend Mentor - IP address tracker
 
-![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -9,27 +8,37 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
-Your challenge is to build out this todo app and get it looking as close to the design as possible.
+Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, you'll be using the [IP Geolocation API by IPify](https://geo.ipify.org/). To generate the map, we recommend using [LeafletJS](https://leafletjs.com/).
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Add new todos to the list
-- Mark todos as complete
-- Delete todos from the list
-- Filter by all/active/complete todos
-- Clear all completed todos
-- Toggle light and dark mode
-- **Bonus**: Drag and drop to reorder items on the list
+- See their own IP address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+---
+
+⚠️ **IMPORTANT** ⚠️: To use the IP Geolocation API by IPify, you'll need to sign up for a free account. You won't need to add any cards details to do this and it's a very quick process. This will generate an API Key for you. Usually, you would be able to restrict your API Key to a specific URL (your own domain). This makes sure that other people can't use your API Key on their own websites. IPify doesn't have this feature, but because you aren't adding your card details, this isn't an issue. **So be sure to only sign up for the free account and DO NOT enter any card details**.
+
+For the mapping API, we recommend using [LeafletJS](https://leafletjs.com/). It's free to use and doesn't require an API Key. If you decide to use another API, like Google Maps or Mapbox, be sure to secure your API Key. Here are guides for both Google Maps and Mapbox, be sure to read through them thoroughly:
+
+- [API Key best practices from Google Developers](https://developers.google.com/maps/api-key-best-practices)
+- [How to use Mapbox securely](https://docs.mapbox.com/help/troubleshooting/how-to-use-mapbox-securely/)
+
+Exposing your API Key publicly can lead to other people using it to make requests for their own application if the proper precautions aren't in place. Please be sure you read the guides thoroughly and follow their recommendations.
+
+**We don't take any responsibility if you expose your API Key while completing the challenge and have not secured it.**
+
+---
+
+Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
@@ -56,7 +65,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 ## Deploying your project
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
 - [GitHub Pages](https://pages.github.com/)
 - [Vercel](https://vercel.com/)
@@ -82,7 +91,7 @@ Remember, if you're looking for feedback on your solution, be sure to ask questi
 
 There are multiple places you can share your solution:
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
+1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
 2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 3. Share your solution on other social channels like LinkedIn.
 4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
@@ -98,28 +107,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-=======
-# Frontend-mentor-challenges
-
-3-column-preview-card-component-main:  https://tasneem94.github.io/Frontend-mentor-challenges/3-column-preview-card-component-main/
-
-advice-generator-app : https://tasneem94.github.io/Frontend-mentor-challenges/advice-generator-app-main/
-
-age-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/age-calculator-app-main/
-
-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/calculator-app-main/
-
-ecommerce-product-page : https://tasneem94.github.io/Frontend-mentor-challenges/ecommerce-product-page-main/
-
-fylo-data-storage-component : https://tasneem94.github.io/Frontend-mentor-challenges/fylo-data-storage-component-master/
-
-ip-address-tracker : https://tasneem94.github.io/Frontend-mentor-challenges/ip-address-tracker-master/
-
-notifications-page : https://tasneem94.github.io/Frontend-mentor-challenges/notifications-page-main/
-
-static-job-listings : https://tasneem94.github.io/Frontend-mentor-challenges/static-job-listings-master/
-
-testimonials-grid-section : https://tasneem94.github.io/Frontend-mentor-challenges/testimonials-grid-section-main/
-
-tip-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/tip-calculator-app-main/
->>>>>>> 9cfe9d3b79847f604317c994ef185e1b50a28578

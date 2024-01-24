@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Frontend Mentor - Todo app
+# Frontend Mentor - Calculator app
 
-![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -13,23 +12,18 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this todo app and get it looking as close to the design as possible.
+Your challenge is to build out this calculator app and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Add new todos to the list
-- Mark todos as complete
-- Delete todos from the list
-- Filter by all/active/complete todos
-- Clear all completed todos
-- Toggle light and dark mode
-- **Bonus**: Drag and drop to reorder items on the list
+- See the size of the elements adjust based on their device's screen size
+- Perform mathematical operations like addition, subtraction, multiplication, and division
+- Adjust the color theme based on their preference
+- **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
@@ -56,7 +50,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 ## Deploying your project
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
 - [GitHub Pages](https://pages.github.com/)
 - [Vercel](https://vercel.com/)
@@ -82,7 +76,7 @@ Remember, if you're looking for feedback on your solution, be sure to ask questi
 
 There are multiple places you can share your solution:
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
+1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
 2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 3. Share your solution on other social channels like LinkedIn.
 4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
@@ -98,28 +92,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-=======
-# Frontend-mentor-challenges
-
-3-column-preview-card-component-main:  https://tasneem94.github.io/Frontend-mentor-challenges/3-column-preview-card-component-main/
-
-advice-generator-app : https://tasneem94.github.io/Frontend-mentor-challenges/advice-generator-app-main/
-
-age-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/age-calculator-app-main/
-
-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/calculator-app-main/
-
-ecommerce-product-page : https://tasneem94.github.io/Frontend-mentor-challenges/ecommerce-product-page-main/
-
-fylo-data-storage-component : https://tasneem94.github.io/Frontend-mentor-challenges/fylo-data-storage-component-master/
-
-ip-address-tracker : https://tasneem94.github.io/Frontend-mentor-challenges/ip-address-tracker-master/
-
-notifications-page : https://tasneem94.github.io/Frontend-mentor-challenges/notifications-page-main/
-
-static-job-listings : https://tasneem94.github.io/Frontend-mentor-challenges/static-job-listings-master/
-
-testimonials-grid-section : https://tasneem94.github.io/Frontend-mentor-challenges/testimonials-grid-section-main/
-
-tip-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/tip-calculator-app-main/
->>>>>>> 9cfe9d3b79847f604317c994ef185e1b50a28578

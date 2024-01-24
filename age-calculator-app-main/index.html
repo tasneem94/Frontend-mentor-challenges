@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:ital,wght@0,400;0,700;1,700;1,900&family=Raleway:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="form-fields">
+        <form class="single-form-field" action="" method="">
+          <label for="day" class="day-month-year">DAY</label><br>
+          <input class="form-input" type="number" id="day" placeholder="DD"><br>
+          <div class="smaller-text error-day">Must be a valid day</div>
+        </form>
+        <form class="single-form-field" action="" method="">
+          <label for="month" class="day-month-year">MONTH</label><br>
+          <input class="form-input" type="number" id="month" placeholder="MM"><br>
+          <div class="smaller-text error-month">Must be a valid month</div>
+        </form>
+        <form class="single-form-field" action="" method="">
+          <label for="year" class="day-month-year">YEAR</label><br>
+          <input class="form-input" type="number" id="year" placeholder="YYYY"><br>
+          <div class="smaller-text error-year">Must be in the past</div>
+        </form>
+      </div>
+      <div class="border-line">
+       <button class="button-circle">
+        <div class="arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+        </div>
+       </button>
+      </div>
+      <div class="text">
+        <p class="date-text"><span class="dash output-years">-- </span>years</p>
+        <p class="date-text"><span class="dash output-months">-- </span>months</p>
+        <p class="date-text"><span class="dash output-days">-- </span>days</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

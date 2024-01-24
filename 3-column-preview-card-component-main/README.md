@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Frontend Mentor - Todo app
+# Frontend Mentor - 3-column preview card component
 
-![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -9,33 +8,26 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+**To do this challenge, you need a basic understanding of HTML and CSS.**
 
 ## The challenge
 
-Your challenge is to build out this todo app and get it looking as close to the design as possible.
+Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Add new todos to the list
-- Mark todos as complete
-- Delete todos from the list
-- Filter by all/active/complete todos
-- Clear all completed todos
-- Toggle light and dark mode
-- **Bonus**: Drag and drop to reorder items on the list
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
 
 If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
@@ -87,7 +79,7 @@ There are multiple places you can share your solution:
 3. Share your solution on other social channels like LinkedIn.
 4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
 
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
@@ -98,28 +90,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-=======
-# Frontend-mentor-challenges
-
-3-column-preview-card-component-main:  https://tasneem94.github.io/Frontend-mentor-challenges/3-column-preview-card-component-main/
-
-advice-generator-app : https://tasneem94.github.io/Frontend-mentor-challenges/advice-generator-app-main/
-
-age-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/age-calculator-app-main/
-
-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/calculator-app-main/
-
-ecommerce-product-page : https://tasneem94.github.io/Frontend-mentor-challenges/ecommerce-product-page-main/
-
-fylo-data-storage-component : https://tasneem94.github.io/Frontend-mentor-challenges/fylo-data-storage-component-master/
-
-ip-address-tracker : https://tasneem94.github.io/Frontend-mentor-challenges/ip-address-tracker-master/
-
-notifications-page : https://tasneem94.github.io/Frontend-mentor-challenges/notifications-page-main/
-
-static-job-listings : https://tasneem94.github.io/Frontend-mentor-challenges/static-job-listings-master/
-
-testimonials-grid-section : https://tasneem94.github.io/Frontend-mentor-challenges/testimonials-grid-section-main/
-
-tip-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/tip-calculator-app-main/
->>>>>>> 9cfe9d3b79847f604317c994ef185e1b50a28578
