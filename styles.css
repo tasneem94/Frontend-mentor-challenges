@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Josephin Sans", sans-serif;
+  color: hsl(235, 19%, 35%);
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+  padding: 30px 20px 0 20px;
+}
+
+.bg-img {
+  position: absolute;
+  background-image: url("images/bg-mobile-light.jpg");
+  width: 375px;
+  height: 200px;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 98%);
+}
+
+.day-night {
+  width: 26px;
+  height: 26px;
+  background-image: url("images/icon-moon.svg");
+}
+
+form {
+  position: relative;
+}
+
+#input-task {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.circle-for-show {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid hsl(236, 9%, 61%);
+  /* background-color: aquamarine; */
+  top: 20%;
+  left: 10px;
+}
+
+.task-tile {
+  position: relative;
+  padding: 15px 40px;
+  margin-bottom: 3px;
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid hsl(236, 9%, 61%); */
+  overflow-wrap: break-word;
+  /* border-top: 0px; */
+}
+
+.extra-task-tile-container {
+  padding: 0 20px;
+}
+
+.extra-task-tile,
+.all-active-completed {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.all-active-completed {
+  margin-bottom: 100px;
+}
+
+.all,
+.active,
+.completed {
+  color: hsl(236, 9%, 61%);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.items-left,
+.no-of-items-left,
+.clear-completed {
+  font-size: 0.8rem;
+  color: hsl(236, 9%, 61%);
+}
+
+.delete-btn {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  background-image: url("images/icon-cross.svg");
+}
+
+.complete-checker {
+  position: absolute;
+  top: 27%;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid hsl(236, 9%, 61%);
+}
+
+.delete-btn:hover,
+.complete-checker:hover,
+.clear-completed:hover,
+.all:hover,
+.active:hover,
+.completed:hover {
+  cursor: pointer;
+}
+
+.checked {
+  width: 20px;
+  height: 20px;
+  background: url("images/icon-check.svg") center no-repeat,
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.completed-task {
+  color: hsl(236, 9%, 61%);
+  text-decoration: line-through hsl(236, 9%, 61%);
+}
