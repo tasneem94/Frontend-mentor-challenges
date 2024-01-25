@@ -21,3 +21,5 @@ static-job-listings : https://tasneem94.github.io/Frontend-mentor-challenges/sta
 testimonials-grid-section : https://tasneem94.github.io/Frontend-mentor-challenges/testimonials-grid-section-main/
 
 tip-calculator-app : https://tasneem94.github.io/Frontend-mentor-challenges/tip-calculator-app-main/
+
+todo-app: https://tasneem94.github.io/Frontend-mentor-challenges/todo-app-main/
